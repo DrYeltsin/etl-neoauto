@@ -8,42 +8,42 @@ PASOS PARA DESPLEGAR PROYECTO
 
 PASO 1 - CREAR ENTORNO VIRTUAL
 
-windows:
+windows
 
 python -m venv venv
 
-macOS:
+macOS
 
 python3 -m venv venv
 
 PASO 2 - ACTIVAR ENTORNO VIRTUAL
 
-windows:
+windows
 
 source venv/Scripts/activate
 
-macOS:
+macOS
 
 python3 venv/bin/activate
 
 
 PASO 3 - INSTALAR DEPENDENCIAS
 
-windows:
+windows
 
 pip install -r requirements.txt
 
-macOS:
+macOS
 
 pip3 install -r requirements.txt
 
 PASO 4 - EJECUTAR
 
-windows:
+windows
 
 python main.py
 
-macOS:
+macOS
 
 python3 main.py
 
