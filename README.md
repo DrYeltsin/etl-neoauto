@@ -35,7 +35,7 @@ python3 -m venv venv
 
 PASO 2 - ACTIVAR ENTORNO VIRTUAL
 
-python3 venv/bin/activate
+source venv/bin/activate
 
 
 PASO 3 - INSTALAR DEPENDENCIAS
